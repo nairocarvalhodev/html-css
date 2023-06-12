@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2> 
+    <ol type="1"><!-- listas que presisa numera ex 1, 2, 3/ a, b, c ...-->
+        <!--posso tbm inicar o inicio da contagem utilizando o parametro
+             START="numero/letra/romanos que eu quero que inicie" Ex; tag < ol type="I" strat="5"
+            vai gerar item numerados apartir da letra V, VI, VII ....-->
+        <li>Acordar</li><!--(li serve par identificar os itens da lista!)-->
+        <li>Ligar para joão</li>
+        <li>Tomar cafe </li>
+        <li>Ir trabladar</li>
+        <li>Almoçar</li>
+        <li>Voltar ao trabalho</li>
+        <li>Jantar</li>
+        <li>Estuda HTMl</li>
+    </ol> <!-- a tag <ol></ol> tem tbm o tipo nesse (type="") podendo ser type="1" A, a, I, i,
+    no cado dosnumeros independente de onde voce inira na lista ele faz a recontagem altomatica.7
+    (1 é o padrao)-->
+    <h2>Listas nao Ordenadas</h2> <!-- nao precisa numerar, apenas marcar-->
+    <ul type="square">
+        <li>Arroz</li> 
+        <li>Feijão</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+    </ul> <!--assim como o <ol> a tag <ul></ul> tm tem seu tipo! nesse caso (type="")
+    podendo ser de type="disc" circle, square (disc é o padrao)-->
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Cliper</li>
+            <li>Visual Basic</li>
+            <li>Forttan</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ol>
+            <li>Mario</li>
+            <li>Ninja Gaiden</li>
+        </ol>
+        <li>SNES</li>
+        <ol>
+            <li>Mario</li>
+            <li>Donkey kong</li>
+        </ol>
+        <li>PlsyStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    <h2>Lista de Definição</h2>
+    
+    <dl> <!--Como se fosse um dicionario-->
+        <dt>(Termo) EX: HTML</dt> <!--Termo-->
+        <dd>(Descrição) EX: Linguagem de marcação para a criação do conteúdo de um site.</dd> <!--Descrição-->
+        <dt>CSS</dt>
+        <dd>Linguagens de marcação para criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de progamação para a criação de interatividade de um site </dd>
+    </dl>
+
+</body>
+</html>
